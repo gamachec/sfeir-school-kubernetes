@@ -14,7 +14,3 @@ A [SFEIR School](https://www.sfeir.com/fr/le-contenus-dexperts-de-la-technologie
 Les slides sont disponibles ici : [Sfeir School Kubernetes](https://sfeir-open-source.github.io/sfeir-school-kubernetes/)
 
 Les Slides sont derrière une license [CC BY ND 3.0](https://github.com/sfeir-open-source/sfeir-school-kubernetes/blob/master/docs/LICENSE)
-
-## Commandes
-
-La formation se déroule step by step, les TPs se trouvent dans le dossier [`steps/`](steps).

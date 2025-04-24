@@ -27,8 +27,10 @@ C'est la stratégie de mise à jour par défaut.
 1. Un pod avec la nouvelle version est créé.
 2. Une fois le pod à l'état **running**, un pod de l'ancienne version est supprimé.
 3. Les étapes 1. et 2. sont répétées jusqu'à ce que chaque pod soit dans la nouvelle version.
+<br><br>
 
-![sfeir-icons](alert-triangle)<!-- .element: style="--icon-size:48px; --icon-color:red;" --> Les deux versions cohabitent briévement.
+Les deux versions cohabitent briévement.
+<!-- .element: class="admonition important" -->
 
 ##==##
 

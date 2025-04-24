@@ -87,8 +87,12 @@ spec:
 
 **Définition:** Un secret est une ressource Kubernetes servant à stocker des données confidentielles au format clé / valeur. 
 * Ils sont utilisés au travers de variables d'environnement ou de volumes. 
-* ![sfeir-icons](alert-triangle)<!-- .element: style="--icon-size:48px; --icon-color:red;" --> Ils sont encodés en base64, et non chiffrés
 * Par défaut, stocké en clair dans la base etcd
+<br><br>
+
+
+Les secrets sont encodés en base64 et non chiffrés
+<!-- .element: class="admonition important" -->
 
 ##==##
 

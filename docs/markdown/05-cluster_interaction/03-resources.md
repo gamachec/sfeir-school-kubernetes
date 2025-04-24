@@ -12,7 +12,11 @@ Fichier de configuration : écrit en yaml ou json, ce fichier décrit l’état 
 <!-- .slide: class="with-code-bg-dark" -->
 
 # Les ressources > **Création impérative**
-Il est possible de créer des ressources Kubernetes avec kubectl. Cette méthode est utile dans des cas spécifiques : tests, dépannage, démonstration.
+Il est possible de créer des ressources Kubernetes avec kubectl.  
+Cette méthode est utile dans des cas spécifiques : 
+* tests 
+* dépannage
+* démonstration, ...
 
 ```bash
 # Syntaxe générique de création d'une ressource

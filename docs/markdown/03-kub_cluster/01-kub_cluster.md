@@ -123,10 +123,12 @@ un ou plusieurs volumes
 
 ## Le cluster Kubernetes > **Les composants additionnels: CSI (Container Storage Interface)**
 
-![center h-600](./assets/images/kube-csi.png)
+![center h-500](./assets/images/kube-csi.png)
 
-* Pas de CSI installé sur le cluster à l'initialisation celui ci étant dépendant du storage provider.
-  * Les fonctionnalités différent entre les CSI. RWO ou RWM, auto extend, etc...
+
+Pas de CSI installé sur le cluster à l'initialisation celui-ci étant dépendant du storage provider.  
+<!-- .element: class="admonition warning" -->
+
 
 ##==##
 

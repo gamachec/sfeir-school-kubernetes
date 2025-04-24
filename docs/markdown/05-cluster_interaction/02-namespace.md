@@ -13,6 +13,11 @@ Ils permettent de partager un cluster unique entre plusieurs utilisateurs, équi
 * Les noms des ressources doivent être uniques au sein d'un namespace, mais pas nécessairement entre les namespaces.
 * Ils permettent de séparer les applications ou les environnements.
 * La gestion des droits peut se faire dans les namespaces au travers des RBAC.
+<br><br><br>
+
+Supprimer un namespace revient à supprimer l'ensemble des ressources qu'il contient
+<!-- .element: class="admonition danger" -->
+
 
 ##==##
 

@@ -11,7 +11,9 @@
 ##==##
 ## Introduction > **Cloud Native Computing Foundation**
 ![](./assets/images/cncf-orchestrator.png)
-[landscape.cncf.io](https://landscape.cncf.io)
+<div style="text-align: center">
+  <a href="https://landscape.cncf.io" target="_blank">landscape.cncf.io</a>
+</div>  
 
 * Fondée en 2015, c'est une organisation à but non lucratif, ayant pour mission de favoriser l'adoption des technologies tournant autour du Cloud.
   * heberge de nombreux projets open source

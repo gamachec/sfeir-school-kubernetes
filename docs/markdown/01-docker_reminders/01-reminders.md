@@ -46,34 +46,7 @@ accès au matériel plus simple
 
 ## Rappels sur Docker > **Build & push**
 
-![h-400](./assets/images/docker.png)
+![center h-400](./assets/images/docker.png)
 * **Dockerfile** : Contient les instructions pour construire l’image.
 * **Image** : Contient les fichiers nécessaires à l’exécution de l'application : binaires, dépendances, configuration.
 * **Registry** : Publique ou privée, permet de récupérer les images à l'aide de la commande pull.
-
-Notes:
-Le Dockerfile :
-
-contient les instructions pour construire l’image
-
-Les images :
-
-contiennent les fichiers nécessaires à l’exécution de votre application : binaires, dépendances, configuration, …
-
-sont immuable
-
-Les containers :
-
-isolent l’exécution de processus
-
-dans le système de fichier de l’image
-
-au niveau réseau
-
-sont conçus pour être éphémères
-
-La registry :
-
-permet le partage d’images
-
-Docker Hub, Google Container Registry, Gitlab, You Own registry ...

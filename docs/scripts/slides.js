@@ -5,6 +5,10 @@ function schoolSlides() {
   return [
     //
     `${directory}00-TITLE.md`, //
+    `${directory}speaker-jfurgerot.md`, //
+    `${directory}speaker-lalhossri.md`, //
+    `${directory}speaker-btouron.md`, //
+    `${directory}speaker-rtetar.md`, //
     `${directory}speaker-nlopesrodrigues.md`, //
     `${directory}01-intro.md`, //
   ];
@@ -37,8 +41,18 @@ function kubCluster() {
   ];
 }
 
+function kubCtrl() {
+  const directory = '04-controllers/';
+  return [
+    //
+    `${directory}00-TITLE.md`, //
+    `${directory}01-kub_controllers.md`, //
+    `${directory}02-control-loops.md`, //
+  ];
+}
+
 function clusterInteraction() {
-  const directory = '04-cluster_interaction/';
+  const directory = '05-cluster_interaction/';
   return [
     //
     `${directory}00-TITLE.md`, //
@@ -49,7 +63,7 @@ function clusterInteraction() {
 }
 
 function resources() {
-  const directory = '05-resources/';
+  const directory = '06-resources/';
   return [
     //
     `${directory}00-TITLE.md`, //
@@ -63,7 +77,7 @@ function resources() {
 }
 
 function advantages() {
-  const directory = '06-advantages/';
+  const directory = '07-advantages/';
   return [
     //
     `${directory}00-TITLE.md`, //
@@ -74,7 +88,7 @@ function advantages() {
 }
 
 function storeData() {
-  const directory = '07-store_data/';
+  const directory = '08-store_data/';
   return [
     //
     `${directory}00-TITLE.md`, //
@@ -83,7 +97,7 @@ function storeData() {
 }
 
 function after() {
-  const directory = '08-after/';
+  const directory = '09-after/';
   return [
     //
     `${directory}00-TITLE.md`, //
@@ -100,6 +114,7 @@ function formation() {
     ...dockerReminders(), //
     ...kubIntro(), //
     ...kubCluster(), //
+    ...kubCtrl(), //
     ...clusterInteraction(), //
     ...resources(), //
     ...advantages(), //

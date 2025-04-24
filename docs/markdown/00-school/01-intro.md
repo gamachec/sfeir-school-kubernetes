@@ -5,10 +5,12 @@
 1. Rappel sur Docker
 2. Kubernetes : introduction
 3. Le cluster Kubernetes
-4. Interaction avec un cluster
-4. Les ressources
-6. Les avantages
-7. Les volumes
+4. Les controllers
+5. Interaction avec un cluster
+6. Les ressources
+7. L'orchestration des conteneurs
+8. Les volumes
+9. Et après ?
 
 ##==##
 
@@ -19,7 +21,7 @@
 
 <https://sfeir-open-source.github.io/sfeir-school-kubernetes/#/>
 
-<https://killercoda.com/>
+<https://killercoda.com/sfeir-killercoda/>
 
 <br>
 
