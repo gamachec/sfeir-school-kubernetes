@@ -115,6 +115,10 @@ spec:
 
 ![center h-800](./assets/images/service-loadbalancer.png)
 
+Notes:
+* Quand on crée un service LoadBalancer, Kubernetes demande au cloud provider de créer un load balancer externe.
+* Ce load balancer distribue le trafic entrant vers les pods disponibles derrière le service.
+
 ##==##
 
 <!-- .slide: class="exercice" -->

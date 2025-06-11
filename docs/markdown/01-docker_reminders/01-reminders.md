@@ -7,6 +7,9 @@ Docker est une plateforme de conteneurisation qui permet de créer, déployer et
 * **Isolation** : Chaque conteneur fonctionne de manière isolée.
 * **Portabilité** : Les conteneurs peuvent être exécutés sur n'importe quel système compatible, poste de développement, serveur de test ou environnement de production.
 
+Notes:
+* révolutionné déploiement des applications, en rendant leur exécution plus fiable d’un environnement à l’autre.
+
 ##==##
 
 ## Rappels sur Docker > **en quelques points**
@@ -14,6 +17,9 @@ Docker est une plateforme de conteneurisation qui permet de créer, déployer et
 * **Efficacité** : Utilise moins de ressources qu'une VM, car partage le noyau du système d'exploitation hôte.
 * **Rapidité** : Les conteneurs démarrent et s'arrêtent en quelques secondes.
 * **Reproductibilité** : Docker garantit que l'application fonctionnera de la même manière dans différents environnements.
+
+Notes:
+* modèles à partir desquels on crée les conteneurs. Elles sont versionnées et facilement partageables.
 
 ##==##
 
@@ -30,15 +36,13 @@ Docker est une plateforme de conteneurisation qui permet de créer, déployer et
 Notes:
 Avantages de Docker :
 
-permet un partage des ressources efficace
-
-plus simple pour gérer des environnements d’exécution variés
+* permet un partage des ressources efficace
+* plus simple pour gérer des environnements d’exécution variés
 
 Avantages des full VMs :
 
-isolation GARANTIE puisqu’il n’y a aucune communications entre l'hôte et la machine virtuelle
-
-accès au matériel plus simple
+* isolation GARANTIE puisqu’il n’y a aucune communications entre l'hôte et la machine virtuelle
+* accès au matériel plus simple
 
 ##==##
 

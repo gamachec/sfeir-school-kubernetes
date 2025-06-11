@@ -20,9 +20,9 @@ Credentials
 <!-- .element: class="center" -->
 <br>
 
-![sfeir-icons big](user)<!-- .element: style="--icon-color:var(--light-grey);" --> WIFI-SFEIR
+![sfeir-icons big](user)<!-- .element: style="--icon-color:var(--light-grey);" --> sfeir_guest
 
-![sfeir-icons big](lock)<!-- .element: style="--icon-color:var(--light-grey);" --> Demandez nous :)
+![sfeir-icons big](lock)<!-- .element: style="--icon-color:var(--light-grey);" --> iloveSFEIR123!
 
 ##==##
 <!-- .slide:  -->
@@ -30,9 +30,21 @@ Credentials
 
 <br>
 
-A quelle heure est la pause ?<br>
-Quand est-ce qu'on mange ?<br>
-Tour de table ...
-<br><br>
 
-...
+<ul>
+  <li>Fin de la school : 17h</li>
+  <li>Pauses : après/pendant les TP</li>
+  <li>Casse-croûte : FFA</li>
+</ul>
+
+<br/>
+<br/>
+<br/>
+
+<ul>
+  <li>Tour de table !</li>
+</ul>
+
+Notes:
+- Tutoiement
+- Ne pas hésiter à m'interrompre

@@ -3,4 +3,3 @@
 # Rappels sur Docker
 
 Notes: 
-Presentation Rémi

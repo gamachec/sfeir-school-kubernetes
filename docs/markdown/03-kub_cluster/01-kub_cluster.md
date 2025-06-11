@@ -36,13 +36,9 @@ Le control plane a pour but de maintenir l'état désiré du cluster, en étant 
 * **kube-controller-manager:** Gère tous les controllers du cluster.
 
 Notes:
-Le master est responsable de d’essentiel de la partie “contrôle” (control plane) du cluster.
-
-Les nœuds (nodes) sont responsables de l’exécution des applications.
-
-Les fonctions de master et de node sont habituellement déployées sur des machines différentes.
-
-En dev ces deux fonctions peuvent être déployées sur une unique machine (ex: Minikube)
+* Le master est responsable de d’essentiel de la partie “contrôle” (control plane) du cluster.
+* Les nœuds (nodes) sont responsables de l’exécution des applications.
+* Expliquer ce qu'est un controler kube (boucle de réconciliation)
 
 ##==##
 
@@ -62,14 +58,17 @@ Le worker node a pour but de permettre aux pods applicatifs d'être démarrés g
 * **container-runtime:** Agent responsable du pull des images, de lancer les conteneurs et leur allouer des ressources.
 
 Notes:
-Les nœeuds exécutent les applications packagées dans des containers regroupés dans des “Pods”.
+* Les nœeuds exécutent les applications packagées dans des containers regroupés dans des “Pods”.
 
-L’exécution des Pods est gérée par les kubelet.
+* L’exécution des Pods est gérée par les kubelet.
 
 Kubelet est un process qui pilote le moteur de containeurs
 respectant le CRI (Container Runtime Interface)
 ex:
 (Docker engines, CRI-O, Containerd)
+
+* Les fonctions de master et de node sont habituellement déployées sur des machines différentes.
+* En dev les master et workers peuvent être déployées sur une unique machine (ex: Minikube)
 
 ##==##
 
@@ -106,7 +105,7 @@ un ou plusieurs volumes
 
 ![center h-600](./assets/images/kube-dns.png)
 
-* Le dns interne est `core dns` remplacant de `kube-dns` depuis la version 1.11 en juillet 2018.
+* Le dns interne est `core-dns` remplacant de `kube-dns` depuis la version 1.11 en juillet 2018.
   * les requetes dns utilisent core dns pour connaitre les noms des services internes, et le `resolv.conf` de la machine hôte pour les noms externes.
 
 ##==##
@@ -116,6 +115,11 @@ un ou plusieurs volumes
 ## Le cluster Kubernetes > **Les composants additionnels: CNI (Container Network Interface)**
 
 ![center h-700](./assets/images/kube-cni.png)
+
+Notes:
+* CNI est une spécification qui standardise la gestion du réseau pour les conteneurs.
+* Permet à Kubernetes de connecter les pods entre eux et au reste du réseau.
+* Les plugins CNI ajoutent, configurent et suppriment les interfaces réseau des pods.
 
 ##==##
 
@@ -129,6 +133,11 @@ un ou plusieurs volumes
 Pas de CSI installé sur le cluster à l'initialisation celui-ci étant dépendant du storage provider.  
 <!-- .element: class="admonition warning" -->
 
+Notes:
+* Permet à Kubernetes de se connecter à différents systèmes de stockage (disques locaux, SAN, cloud, etc.).
+* Les plugins CSI créent, attachent, détachent et suppriment des volumes pour les pods.
+* Grâce à CSI, Kubernetes peut intégrer facilement de nouveaux fournisseurs de stockage, sans modification du cœur du système.
+* En résumé: CSI rend le stockage flexible et extensible pour les applications dans Kubernetes.
 
 ##==##
 
