@@ -121,6 +121,11 @@ Notes:
 * Permet à Kubernetes de connecter les pods entre eux et au reste du réseau.
 * Les plugins CNI ajoutent, configurent et suppriment les interfaces réseau des pods.
 
+Deux CNI populaires :
+* Flannel (vlan) = simplicité, connectivité de base.
+* Calico (mode "routé) = performance, sécurité, fonctionnalités avancées.
+* CNI spécifiques pour les gros providers (AWS, Google, ...)
+
 ##==##
 
 <!-- .slide:-->

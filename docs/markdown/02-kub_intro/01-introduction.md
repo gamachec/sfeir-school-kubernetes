@@ -39,11 +39,11 @@ Notes:
 <!-- .element: class="credits" -->
 
 Notes:
-* Kubernetes réecrit en Go par les Googlers
-* Offert à la CNCF en 2015
-* Kubernetes n’est qu’un outils parmi tous les outils pouvant vous aider à créer des architectures Cloud-Natives
+* Kubernetes = barreur d'un navire en grec
+* Abrégé en K8S = k..8 lettres..s
+* écrit en Go par Google
 
-* "Cluster Kubernetes" = des noeuds maîtres &
+* "Cluster Kubernetes" = des noeuds maîtres & des workers
 Parler à minima des pods pour permettre de répondre à la question du quizz
 
 
@@ -79,7 +79,6 @@ Lors de montée de version, l'api de kubernetes est enrichie, et rares sont les 
 - **Écosystème riche** : Énormément d'outils/extensions et communauté active.
 
 Notes:
-Kubernetes = barreur d'un navire en grec
 
 ##==##
 

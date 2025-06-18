@@ -18,6 +18,8 @@ Ils permettent de partager un cluster unique entre plusieurs utilisateurs, équi
 Supprimer un namespace revient à supprimer l'ensemble des ressources qu'il contient
 <!-- .element: class="admonition danger" -->
 
+Notes:
+RBAC = Role-Based Access Control
 
 ##==##
 
